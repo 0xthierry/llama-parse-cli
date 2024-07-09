@@ -1,0 +1,32 @@
+{
+  "name": "llama-parse-cli",
+  "version": "0.0.1",
+  "description": "A CLI for parsing files with LlamaIndex Parser",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "llama-parse": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsup src/index.ts"
+  },
+  "keywords": ["llama-index", "llama-parse"],
+  "author": "Thierry Santos <thierrysantoos123@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node20": "20.1.4",
+    "@types/chalk": "2.2.0",
+    "@types/node": "20.14.10",
+    "tsup": "8.1.0",
+    "tsx": "4.16.2",
+    "typescript": "5.5.3"
+  },
+  "dependencies": {
+    "chalk": "5.3.0",
+    "commander": "12.1.0",
+    "inquirer": "10.0.1",
+    "ora": "8.0.1",
+    "zod": "3.23.8"
+  }
+}
