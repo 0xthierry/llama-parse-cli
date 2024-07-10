@@ -22,6 +22,8 @@ Before using the parse functionality, you need to authenticate with your API key
 llama-parse auth
 ```
 
+<img src="./screenshots/add-auth.png" />
+
 This command will prompt you to enter your API key, which should start with "llx-". The key will be securely stored in `~/.llama-parse/config.json`.
 
 ### Parsing Documents
@@ -69,6 +71,8 @@ llama-parse parse example/sample-pdf.pdf -tp 0
 ```sh
 llama-parse parse example/sample-pdf.pdf -v
 ```
+
+<img src="./screenshots/parse-file.png" />
 
 ## Development
 
